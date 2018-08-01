@@ -14,14 +14,16 @@ Summary: Fast implementation of hierarchical clustering
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-flashclust-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-flashclust-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-flashclust-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-flashclust-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-flashclust-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-flashclust-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-flashclust-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-flashclust-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-flashclust-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-flashclust-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-flashclust-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-flashclust-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-flashclust/badges/version.svg)](https://anaconda.org/conda-forge/r-flashclust)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-flashclust/badges/downloads.svg)](https://anaconda.org/conda-forge/r-flashclust)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--flashclust-green.svg)](https://anaconda.org/conda-forge/r-flashclust) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-flashclust.svg)](https://anaconda.org/conda-forge/r-flashclust) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-flashclust.svg)](https://anaconda.org/conda-forge/r-flashclust) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-flashclust.svg)](https://anaconda.org/conda-forge/r-flashclust) |
 
 Installing r-flashclust
 =======================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
