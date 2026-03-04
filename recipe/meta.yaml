@@ -1,4 +1,4 @@
-{% set version = '1.01-2' %}
+{% set version = "1.1-4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/flashClust_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/flashClust/flashClust_{{ version }}.tar.gz
-  sha256: 48a7849bb86530465ff3fbfac1c273f0df4b846e67d5eee87187d250c8bf9450
+  sha256: 4ea74236921a05457bedeb7415323d4ca5479dcfa56f8ba5489de604c33db4e9
 
 build:
-  number: 1011
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
